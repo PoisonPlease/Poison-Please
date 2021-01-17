@@ -9,4 +9,9 @@ public class scenemanager : MonoBehaviour
     {
         SceneManager.LoadScene("Manumuna");
     }
+    public void QuitGame()
+    {
+        Debug.Log("QUIT");
+        Application.Quit();
+    }
 }
