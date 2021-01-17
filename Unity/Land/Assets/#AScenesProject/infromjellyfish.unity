@@ -2232,6 +2232,7 @@ GameObject:
   - component: {fileID: 1223110634}
   - component: {fileID: 1223110633}
   - component: {fileID: 1223110632}
+  - component: {fileID: 1223110635}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2300,7 +2301,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1223110633}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1223110630}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1223110633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2339,6 +2352,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223110630}
   m_CullTransparentMesh: 0
+--- !u!114 &1223110635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223110630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cb07c573344364894df72112585a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1234230971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3347,9 +3372,9 @@ MonoBehaviour:
     \u0E15\u0E48\u0E2D\u0E17\u0E30\u0E40\u0E25\n \u0E25\u0E31\u0E01\u0E29\u0E13\u0E30
     : \u0E42\u0E1B\u0E23\u0E48\u0E07\u0E43\u0E2A\u0E21\u0E35\u0E2A\u0E35\u0E41\u0E14\u0E07,\u0E0A\u0E21\u0E1E\u0E39,\u0E21\u0E48\u0E27\u0E07
     \u0E41\u0E25\u0E30\u0E1F\u0E49\u0E32 \u0E02\u0E19\u0E32\u0E14\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13
-    10-30 \u0E0B\u0E21. [\u0E21\u0E35\u0E1E\u0E34\u0E29\u0E23\u0E49\u0E32\u0E22\u0E41\u0E23\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14]\n
-    \u0E23\u0E39\u0E1B\u0E23\u0E48\u0E32\u0E07 : \u0E25\u0E39\u0E01\u0E1A\u0E32\u0E01\u0E28\u0E4C,\u0E16\u0E49\u0E27\u0E22
-    \u0E2B\u0E23\u0E37\u0E2D \u0E23\u0E48\u0E21\n \u0E1E\u0E34\u0E29 :  \u0E1E\u0E1A\u0E1A\u0E23\u0E34\u0E40\u0E27\u0E13\u0E2B\u0E19\u0E27\u0E14
+    10-30 \u0E0B\u0E21. [\u0E21\u0E35\u0E1E\u0E34\u0E29\u0E23\u0E49\u0E32\u0E22\u0E41\u0E23\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14]\n\u0E23\u0E39\u0E1B\u0E23\u0E48\u0E32\u0E07
+    : \u0E25\u0E39\u0E01\u0E1A\u0E32\u0E01\u0E28\u0E4C,\u0E16\u0E49\u0E27\u0E22 \u0E2B\u0E23\u0E37\u0E2D
+    \u0E23\u0E48\u0E21\n \u0E1E\u0E34\u0E29 :  \u0E1E\u0E1A\u0E1A\u0E23\u0E34\u0E40\u0E27\u0E13\u0E2B\u0E19\u0E27\u0E14
     \u0E21\u0E35\u0E40\u0E0B\u0E25\u0E25\u0E4C\u0E40\u0E02\u0E47\u0E21\u0E1E\u0E34\u0E29
     4-5 \u0E1E\u0E31\u0E19\u0E25\u0E49\u0E32\u0E19\u0E40\u0E0B\u0E25\u0E25\n \u0E02\u0E49\u0E2D\u0E41\u0E15\u0E01\u0E15\u0E48\u0E32\u0E07\u0E0A\u0E19\u0E34\u0E14\u0E17\u0E35\u0E48\u0E1E\u0E34\u0E29
     : \u0E21\u0E35\u0E1E\u0E34\u0E29\u0E17\u0E38\u0E01\u0E0A\u0E19\u0E34\u0E14\u0E41\u0E15\u0E48\u0E24\u0E17\u0E18\u0E34\u0E4C\u0E15\u0E48\u0E32\u0E07\u0E01\u0E31\u0E19\n\n\n"
