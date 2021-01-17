@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8c943923aab04b14781808a57f979ddd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Quark
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9957d098f4ba4fe4aa1291f6ccd7c375, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
