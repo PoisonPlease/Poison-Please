@@ -11,11 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/manumuna.unity
     guid: 3f7564d482c19de47878e6b679bf0a45
-  - enabled: 1
-    path: Assets/select_Ani.unity
-    guid: a1434563af6e48e46bcf35326119b56b
-  - enabled: 1
-    path: Assets/oceanocean.unity
-    guid: b33457f78a45ca44ca7abcb153d5332f
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d6205b02482ec8e42b4331fcb30599e0, type: 2}

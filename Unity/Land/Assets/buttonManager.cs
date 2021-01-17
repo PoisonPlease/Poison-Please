@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class scenemanager : MonoBehaviour
+public class buttonManager : MonoBehaviour
 {
-    public void onClickNextScene(string scenename)
+
+    public void onClickNextScene()
     {
-        SceneManager.LoadScene(scenename);
+        SceneManager.LoadScene("Manumuna");
     }
     public void QuitGame()
     {
