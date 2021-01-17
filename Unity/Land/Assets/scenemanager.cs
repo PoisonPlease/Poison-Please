@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class scenemanager : MonoBehaviour
+public class sceneManager : MonoBehaviour
 {
-    public void onClickNextScene(string scenename)
+    // Start is called before the first frame update
+    public void NextScence(string scene_name)
     {
-        SceneManager.LoadScene(scenename);
+        SceneManager.LoadScene(scene_name);
     }
-    public void QuitGame()
+
+    // Update is called once per frame
+    public void QuitGame ()
     {
-        Debug.Log("QUIT");
+        Debug.Log("Quit");
         Application.Quit();
     }
 }
