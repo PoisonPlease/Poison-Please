@@ -2,20 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class panelle : MonoBehaviour
-{
-    /*
-    public GameObject Panel;
-    public void OpenPanel()
-    {
-        if (Panel != null)
-        {
-            bool isActive = Panel.activeSelf;
+using UnityEngine.MonoBehaviour;
 
-            Panel.SetActive(!isActive);
-        }
-    }
-    */
+public class Ochagescene : MonoBehaviour
+{
+    // Start is called before the first frame update
     public void nextscence(string scene_name)
     {
         Debug.Log("Onclick");
